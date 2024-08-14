@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
               Text('Welcome to Flutter!'),
               SizedBox(
                   height:
-                      20), // Adding some space between the text and the button
+                      20), 
               ElevatedButton(
                 onPressed: () {
                   ScaffoldMessenger.of(context).showSnackBar(
@@ -32,9 +32,9 @@ class MyApp extends StatelessWidget {
                   );
                 },
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.green, // Corrected button color
+                  backgroundColor: Colors.green, 
                 ),
-                child: Text('Press Me'), // Text on the button
+                child: Text('Press Me'), 
               ),
             ],
           ),
